@@ -1,0 +1,19 @@
+{
+  "name": "DataEntry",
+  "version": "0.0.0",
+  "description": "DataEntry",
+  "main": "app.js",
+  "author": {
+    "name": "Marco",
+    "email": ""
+  },
+  "dependencies": {
+    "connect-redis": "^2.2.0",
+    "express": "3.4.4",
+    "express-session": "^1.10.4",
+    "guid": "0.0.12",
+    "jade": "*",
+    "redis": "^0.12.1",
+    "stylus": "*"
+  }
+}

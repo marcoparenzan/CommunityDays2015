@@ -1,0 +1,13 @@
+﻿extends layout
+
+block content
+  .jumbotron
+    h1 Data Entry [1] - Nome
+      
+    div.label.label-default #{computerName}
+  
+    form(method="post", action="dataEntry1")
+        .form-group
+            label(for="nome") Nome
+            input.form-control(id="nome", name="nome", type="text")
+        button.btn.btn-primary Avanti

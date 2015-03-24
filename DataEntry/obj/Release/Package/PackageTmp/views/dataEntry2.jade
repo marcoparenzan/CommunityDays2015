@@ -1,0 +1,16 @@
+﻿extends layout
+
+block content
+  .jumbotron
+    h1 Data Entry [2] - Indirizzo
+
+    div.label.label-default #{computerName}
+    
+    form(method="post", action="dataEntry2")
+        .form-group
+            label(for="nome") Nome
+            div.label.label-default #{nome}
+        .form-group
+            label(for="indirizzo") Indirizzo
+            input.form-control(id="indirizzo", name="indirizzo", type="text")
+        button.btn.btn-primary Invia
